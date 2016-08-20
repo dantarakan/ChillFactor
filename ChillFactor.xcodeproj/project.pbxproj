@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B79BF5F76A61B86D415CC5A /* Pods_ChillFactor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A2387AD1721AE13B3C74AC /* Pods_ChillFactor.framework */; };
+		A58836271D68BF18008C09FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836261D68BF18008C09FF /* AppDelegate.swift */; };
+		A588362C1D68BF18008C09FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A588362A1D68BF18008C09FF /* Main.storyboard */; };
+		A588362E1D68BF18008C09FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A588362D1D68BF18008C09FF /* Assets.xcassets */; };
+		A58836311D68BF18008C09FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A588362F1D68BF18008C09FF /* LaunchScreen.storyboard */; };
+		A58836391D68BF92008C09FF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58836381D68BF92008C09FF /* HealthKit.framework */; };
+		A588363C1D68C038008C09FF /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588363B1D68C038008C09FF /* HealthManager.swift */; };
+		A588363F1D68C37A008C09FF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588363D1D68C37A008C09FF /* TableViewController.swift */; };
+		A58836401D68C37A008C09FF /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A588363E1D68C37A008C09FF /* TableViewController.xib */; };
+		A58836421D68C402008C09FF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836411D68C402008C09FF /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6886D5D5EE78B0871C5DF0E4 /* Pods-ChillFactor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChillFactor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChillFactor/Pods-ChillFactor.debug.xcconfig"; sourceTree = "<group>"; };
+		A58836231D68BF17008C09FF /* ChillFactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChillFactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58836261D68BF18008C09FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A588362B1D68BF18008C09FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A588362D1D68BF18008C09FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A58836301D68BF18008C09FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A58836321D68BF18008C09FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58836381D68BF92008C09FF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		A588363A1D68BFE6008C09FF /* ChillFactor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChillFactor.entitlements; sourceTree = "<group>"; };
+		A588363B1D68C038008C09FF /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		A588363D1D68C37A008C09FF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A588363E1D68C37A008C09FF /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		A58836411D68C402008C09FF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C3A2387AD1721AE13B3C74AC /* Pods_ChillFactor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChillFactor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD38C04CE295E4C3E8D648CF /* Pods-ChillFactor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChillFactor.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChillFactor/Pods-ChillFactor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A58836201D68BF17008C09FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58836391D68BF92008C09FF /* HealthKit.framework in Frameworks */,
+				1B79BF5F76A61B86D415CC5A /* Pods_ChillFactor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36717FD8F1BEDE9F2E58D239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6886D5D5EE78B0871C5DF0E4 /* Pods-ChillFactor.debug.xcconfig */,
+				FD38C04CE295E4C3E8D648CF /* Pods-ChillFactor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94ED8388DB06A37A30D81F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A2387AD1721AE13B3C74AC /* Pods_ChillFactor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A588361A1D68BF17008C09FF = {
+			isa = PBXGroup;
+			children = (
+				A58836381D68BF92008C09FF /* HealthKit.framework */,
+				A58836251D68BF18008C09FF /* ChillFactor */,
+				A58836241D68BF17008C09FF /* Products */,
+				36717FD8F1BEDE9F2E58D239 /* Pods */,
+				94ED8388DB06A37A30D81F31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A58836241D68BF17008C09FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A58836231D68BF17008C09FF /* ChillFactor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58836251D68BF18008C09FF /* ChillFactor */ = {
+			isa = PBXGroup;
+			children = (
+				A588363A1D68BFE6008C09FF /* ChillFactor.entitlements */,
+				A58836261D68BF18008C09FF /* AppDelegate.swift */,
+				A588362A1D68BF18008C09FF /* Main.storyboard */,
+				A588362D1D68BF18008C09FF /* Assets.xcassets */,
+				A588362F1D68BF18008C09FF /* LaunchScreen.storyboard */,
+				A58836321D68BF18008C09FF /* Info.plist */,
+				A588363B1D68C038008C09FF /* HealthManager.swift */,
+				A588363D1D68C37A008C09FF /* TableViewController.swift */,
+				A588363E1D68C37A008C09FF /* TableViewController.xib */,
+				A58836411D68C402008C09FF /* TableViewCell.swift */,
+			);
+			path = ChillFactor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A58836221D68BF17008C09FF /* ChillFactor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58836351D68BF18008C09FF /* Build configuration list for PBXNativeTarget "ChillFactor" */;
+			buildPhases = (
+				028B54329B454510E24E0C54 /* Check Pods Manifest.lock */,
+				A588361F1D68BF17008C09FF /* Sources */,
+				A58836201D68BF17008C09FF /* Frameworks */,
+				A58836211D68BF17008C09FF /* Resources */,
+				0A886AF0E8295314A864BB21 /* Embed Pods Frameworks */,
+				90DBF14BBB2F5EE06DB53DA7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChillFactor;
+			productName = ChillFactor;
+			productReference = A58836231D68BF17008C09FF /* ChillFactor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A588361B1D68BF17008C09FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniil Tarakanov";
+				TargetAttributes = {
+					A58836221D68BF17008C09FF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7GV329N359;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A588361E1D68BF17008C09FF /* Build configuration list for PBXProject "ChillFactor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A588361A1D68BF17008C09FF;
+			productRefGroup = A58836241D68BF17008C09FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58836221D68BF17008C09FF /* ChillFactor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A58836211D68BF17008C09FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58836311D68BF18008C09FF /* LaunchScreen.storyboard in Resources */,
+				A588362E1D68BF18008C09FF /* Assets.xcassets in Resources */,
+				A588362C1D68BF18008C09FF /* Main.storyboard in Resources */,
+				A58836401D68C37A008C09FF /* TableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		028B54329B454510E24E0C54 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A886AF0E8295314A864BB21 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChillFactor/Pods-ChillFactor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DBF14BBB2F5EE06DB53DA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChillFactor/Pods-ChillFactor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A588361F1D68BF17008C09FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58836421D68C402008C09FF /* TableViewCell.swift in Sources */,
+				A588363C1D68C038008C09FF /* HealthManager.swift in Sources */,
+				A58836271D68BF18008C09FF /* AppDelegate.swift in Sources */,
+				A588363F1D68C37A008C09FF /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A588362A1D68BF18008C09FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A588362B1D68BF18008C09FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A588362F1D68BF18008C09FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A58836301D68BF18008C09FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A58836331D68BF18008C09FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A58836341D68BF18008C09FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A58836361D68BF18008C09FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6886D5D5EE78B0871C5DF0E4 /* Pods-ChillFactor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChillFactor/ChillFactor.entitlements;
+				INFOPLIST_FILE = ChillFactor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.ChillFactor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A58836371D68BF18008C09FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD38C04CE295E4C3E8D648CF /* Pods-ChillFactor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChillFactor/ChillFactor.entitlements;
+				INFOPLIST_FILE = ChillFactor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.ChillFactor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A588361E1D68BF17008C09FF /* Build configuration list for PBXProject "ChillFactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58836331D68BF18008C09FF /* Debug */,
+				A58836341D68BF18008C09FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58836351D68BF18008C09FF /* Build configuration list for PBXNativeTarget "ChillFactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58836361D68BF18008C09FF /* Debug */,
+				A58836371D68BF18008C09FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A588361B1D68BF17008C09FF /* Project object */;
+}
